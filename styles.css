@@ -114,6 +114,9 @@ body {
 .accordion-body {
     display: none;
 }
+.subscription-plan {
+    text-transform: uppercase;
+}
 .accordion-header.active + .accordion-body {
     display: block;
 }
