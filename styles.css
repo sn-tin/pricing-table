@@ -1,0 +1,199 @@
+*, *::before, *::after, h1, h2, h3, h4 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.9rem;
+    background-color: #F5F5F5;
+}
+.table {
+    background-color: #ffffff;
+    margin: 50px auto;
+}
+.table .pricing-card {
+    width: 100%;
+    border: 1px solid #efefef;
+}
+.empty-card {
+    display: none;
+}
+.pricing-card {
+    text-align: center;
+    padding: 30px 20px;
+}
+.pricing-card h4, .btn, .pricing-card.best-value{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.pricing-card.best-value {
+    color: white;
+    background-color: #A7CA1A;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 0;
+}
+.pricing-card h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    opacity: 70%;
+}
+.pricing-card span {
+    font-size: 0.8rem;
+    font-family: inherit;
+    font-weight: 400;
+    opacity: 50%;
+}
+.buy-buttons {
+    color: #ffff;
+    font-size: 0.9rem;
+    margin: 30px 0 0;
+    padding: 8px;
+}
+/* Pricing Box Buttons */
+.btn:hover {
+    color: #ffff;
+    opacity: 80%;
+}
+.basic-btn {
+    background-color: #7D6E99;
+}
+.business-btn {
+    background-color:  #A7CA1A;
+}
+.pro-btn {
+    background-color: #4C7DA5;
+}
+/* Table Body */
+.accordion-header {
+    border: 1px solid #efefef;
+    font-weight: 800;
+    background-color: #F7F7F7 !important;
+    cursor: pointer;
+}
+.accordion-header.active {
+    background-color: #e0e0e0 !important;
+}
+.accordion-header:hover{
+    background-color: #e0e0e0 !important;
+}
+.accordion-header-text {
+    display: flex;
+    align-items: center;
+}
+.accordion-header-text h4 {
+    font-weight: 800;
+    font-size: inherit;
+    margin: 0 10px;
+}
+/* Arrow down */
+.accordion-header-text::before {
+    content: '';
+    background-image: url("./images/arrow-down.svg");
+    background-size: 10px 20px;
+    background-repeat: no-repeat;
+    width: 15px; 
+    height: 20px;
+    margin-left: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+.accordion-header.active > .accordion-header-text::before {
+    transform: rotate(-180deg);
+}
+/* Question mark inside circle  */
+.accordion-header-text::after {
+    content: '';
+    background-image: url("./images/question-circle.svg");
+    background-size: 15px 20px;
+    background-repeat: no-repeat;
+    width: 20px; 
+    height: 20px;
+}
+.accordion-body {
+    display: none;
+}
+.accordion-header.active + .accordion-body {
+    display: block;
+}
+.accordion-table-header {
+    font-size: 0.8rem;
+    font-weight: 800;
+    padding: 5px 0 !important;
+    border: none;
+    border-bottom: 1px solid #efefef;
+}
+.accordion-table-header > span {
+    width: 337px;
+    text-align: center;
+}
+.accordion-table {
+    opacity: 0.8;
+}
+.row {
+    --bs-gutter-x: 1rem;
+}
+.col-3 {
+    font-size: clamp(0.65rem, 2.5vw, 0.9rem);
+    border: 1px solid #EFEFEF;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.fa-check {
+    color: #A7CA1A;
+}
+/* Table Footer */
+.table-footer {
+    display: none;
+}
+.table-footer {
+    display: block;
+}
+.table-footer .pricing-card {
+    padding: 30px 20px;
+}
+.table-footer .buy-buttons {
+    margin: 0;
+}
+@media screen and (min-width: 764px) {
+    .empty-card {
+        display: block;
+    }
+    .pricing-card {
+        position: relative;
+    }
+    .pricing-card .best-value {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        color: #ffff;
+        padding: 3px;
+        position: absolute;
+        background-color: #A7CA1A !important;
+        top: -1.5rem;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .basic-text::before, .business-text::before, .pro-text::before {
+        display: none;
+    }
+    .accordion-header > span {
+        width: 25%;
+        text-align: center;
+    }
+    .col-3 {
+        padding: 10px 40px !important;
+    }
+    .col-3.justify-content-center {
+        padding: 10px 5px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .table {
+        width: 60%;
+    }
+}

@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/cb51308546.js" crossorigin="anonymous"></script>
+    <title>Pricing</title>
+  </head>
+  <body>
+    <main>
+      <div class="table shadow">
+        <!-- Table Header -->
+        <div class="table-heading d-flex flex-column flex-md-row flex-lg-row">
+          <div class="pricing-card empty-card"></div>
+          <div class="pricing-card">
+            <h4>Basic</h4>
+            <h2>$297</h2>
+            <span>billed yearly</span>
+            <div class="basic-price-btn">
+              <button class="btn col-12 basic-btn buy-buttons">
+                Buy Basic
+              </button>
+            </div>
+          </div>
+          <div class="pricing-card best-value d-block d-md-none">
+            <p class="m-0">Best Value</p>
+          </div>
+          <div class="pricing-card business-pricing">
+            <p class="best-value">Best Value</p>
+            <h4>Business</h4>
+            <h2>$697</h2>
+            <span>billed yearly</span>
+            <div class="business-price-btn">
+              <button class="btn col-12 business-btn buy-buttons">
+                Buy Business
+              </button>
+            </div>
+          </div>
+          <div class="pricing-card">
+            <h4>Pro</h4>
+            <h2>$997</h2>
+            <span>billed yearly</span>
+            <div class="business-price-btn">
+              <button class="btn col-12 pro-btn buy-buttons">Buy Pro</button>
+            </div>
+          </div>
+        </div>
+        <!-- End of Table Header -->
+
+        <!-- Table Body -->
+        <div class="table-body">
+          <!-- GENERAL -->
+          <div id="general">
+            <div class="accordion-header d-flex flex-row flex-md-row flex-lg-row">
+             <span class="accordion-header-text text-start">
+                <h4>General</h4>
+              </span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+            </div>
+            <div class="accordion-body  py-0">
+                <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Basic</span>
+                    <span>Business</span>
+                    <span>Pro</span>
+                  </div>
+                  <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                  </div>
+              <div class="accordion-table">
+                <div class="row">
+                  <div class="col-3">Number of sites</div>
+                  <div class="col-3 justify-content-center">1</div>
+                  <div class="col-3 justify-content-center">5</div>
+                  <div class="col-3 justify-content-center">15</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Media Manager</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">3d party integrations</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Team Members</div>
+                  <div class="col-3 justify-content-center">0</div>
+                  <div class="col-3 justify-content-center">3</div>
+                  <div class="col-3 justify-content-center">10</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">'Powered by' logo</div>
+                  <div class="col-3 justify-content-center">
+                    Always Active
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    Optional
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    Optional
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END OF GENERAL -->
+
+          <!-- FUNNEL BUILDER -->
+          <div id="funnel-builder" >
+            <div class="accordion-header d-flex flex-row flex-md-row flex-lg-row">
+              <span class="accordion-header-text text-start">
+                <h4>Funnel Builder</h4>
+              </span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+            </div>
+            <div class="accordion-body  py-0">
+                <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Basic</span>
+                    <span>Business</span>
+                    <span>Pro</span>
+                  </div>
+                  <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                  </div>
+              <div class="accordion-table">
+                <div class="row">
+                  <div class="col-3">Number of funnels</div>
+                  <div class="col-3 justify-content-center">10</div>
+                  <div class="col-3 justify-content-center">100</div>
+                  <div class="col-3 justify-content-center">500</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Number of templates groups</div>
+                  <div class="col-3 justify-content-center">5</div>
+                  <div class="col-3 justify-content-center">15</div>
+                  <div class="col-3 justify-content-center">99999</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Split Testing</div>
+                  <div class="col-3 justify-content-center empty-cell">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Mobile Optimizer</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">In-built Conversion Tools</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">HTML Download</div>
+                  <div class="col-3 justify-content-center empty-cell">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Save as template</div>
+                  <div class="col-3 justify-content-center empty-cell">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Clone Page</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Unique Visitors</div>
+                  <div class="col-3 justify-content-center">25,000</div>
+                  <div class="col-3 justify-content-center">100,000</div>
+                  <div class="col-3 justify-content-center">Unlimited</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Transfer Funnels</div>
+                  <div class="col-3 justify-content-center empty-cell">NO</div>
+                  <div class="col-3 justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END OF FUNNEL BUILDER -->
+
+          <!-- PRODUCT BUILDER -->
+          <div id="product-builder" >
+            <div class="accordion-header d-flex flex-row flex-md-row flex-lg-row">
+              <span class="accordion-header-text text-start">
+                <h4>Product Builder</h4>
+              </span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+            </div>
+            <div class="accordion-body  py-0">
+                <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Basic</span>
+                    <span>Business</span>
+                    <span>Pro</span>
+                  </div>
+                  <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                  </div>
+              <div class="accordion-table">
+                <div class="row">
+                  <div class="col-3">Number of products</div>
+                  <div class="col-3 justify-content-center">10</div>
+                  <div class="col-3 justify-content-center">50</div>
+                  <div class="col-3 justify-content-center">250</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Membership Module products</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Digital Products</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Instasuite Checkout (Stripe & Paypal)</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Multiple Price Points</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Coupons and Discounts</div>
+                  <div class="col-3 justify-content-center empty-cell">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Automation Actions</div>
+                  <div class="col-3 justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Digital product delivery - Email</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    Digital product delivery - Redirect URL
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    Digital product delivery - Upload File
+                  </div>
+                  <div class="col-3 justify-content-center empty-cell">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Digital product delivery - ISPDN</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Export Orders to CSV</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END OF PRODUCT BUILDER -->
+
+          <!-- MEMBERSHIP BUILDER -->
+          <div id="membership-builder" >
+            <div class="accordion-header d-flex flex-row flex-md-row flex-lg-row">
+              <span class="accordion-header-text text-start">
+                <h4>Membership Builder</h4>
+              </span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+            </div>
+            <div class="accordion-body  py-0">
+                <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Basic</span>
+                    <span>Business</span>
+                    <span>Pro</span>
+                  </div>
+                  <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                  </div>
+              <div class="accordion-table">
+                <div class="row">
+                  <div class="col-3">In-built SMTP</div>
+                  <div class="col-3 justify-content-center">
+                      <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                      <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                      <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">Number of themes</div>
+                    <div class="col-3 justify-content-center">1</div>
+                    <div class="col-3 justify-content-center">3</div>
+                    <div class="col-3 justify-content-center">5</div>
+                </div>
+                <div class="row">
+                    <div class="col-3">Number of Members</div>
+                    <div class="col-3 justify-content-center">1,000</div>
+                    <div class="col-3 justify-content-center">5,000</div>
+                    <div class="col-3 justify-content-center">100,000</div>
+                </div>
+                <div class="row">
+                    <div class="col-3">Member Tags</div>
+                    <div class="col-3 justify-content-center empty-cell">
+                      NO
+                    </div>
+                    <div class="col-3 justify-content-center">
+                        <i class="fa-solid fa-check fa-lg"></i>
+                    </div>
+                    <div class="col-3 justify-content-center">
+                        <i class="fa-solid fa-check fa-lg"></i>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Drip Feed</div>
+                  <div class="col-3 justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">
+                      <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                      <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">Member Progress Tracking</div>
+                    <div class="col-3 justify-content-center">
+                        <i class="fa-solid fa-check fa-lg"></i>
+                    </div>
+                    <div class="col-3 justify-content-center">
+                        <i class="fa-solid fa-check fa-lg"></i>
+                    </div>
+                    <div class="col-3 justify-content-center">
+                        <i class="fa-solid fa-check fa-lg"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">Quiz Tracking</div>
+                    <div class="col-3 justify-content-center">
+                        <i class="fa-solid fa-check fa-lg"></i>
+                    </div>
+                    <div class="col-3 justify-content-center">
+                        <i class="fa-solid fa-check fa-lg"></i>
+                    </div>
+                    <div class="col-3 justify-content-center">
+                        <i class="fa-solid fa-check fa-lg"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">Design Editor</div>
+                    <div class="col-3 justify-content-center">
+                      <i class="fa-solid fa-check fa-lg"></i>
+                    </div>
+                    <div class="col-3 justify-content-center">
+                        <i class="fa-solid fa-check fa-lg"></i>
+                    </div>
+                    <div class="col-3 justify-content-center">
+                        <i class="fa-solid fa-check fa-lg"></i>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END OF MEMBERSHIP BUILDER -->
+
+          <!-- LIST BUILDER -->
+          <div id="list-builder" >
+            <div class="accordion-header d-flex flex-row flex-md-row flex-lg-row">
+              <span class="accordion-header-text text-start">
+                <h4>List Builder</h4>
+              </span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+            </div>
+            <div class="accordion-body  py-0">
+                <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Basic</span>
+                    <span>Business</span>
+                    <span>Pro</span>
+                  </div>
+                  <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                  </div>
+              <div class="accordion-table">
+                <div class="row">
+                  <div class="col-3">SMTP setup</div>
+                  <div class="col-3 justify-content-center">Own</div>
+                  <div class="col-3 justify-content-center">Own</div>
+                  <div class="col-3 justify-content-center">Own</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Blacklist Domain, Email, IP</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Block role-based email</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Number of lists</div>
+                  <div class="col-3 justify-content-center">10</div>
+                  <div class="col-3 justify-content-center">100</div>
+                  <div class="col-3 justify-content-center">Unlimited</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Number of Subscribers</div>
+                  <div class="col-3 justify-content-center">1,000</div>
+                  <div class="col-3 justify-content-center">5,000</div>
+                  <div class="col-3 justify-content-center">100,000</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Manual/Bulk Import</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">List Segmentation</div>
+                  <div class="col-3 justify-content-center empty-cell">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Automations</div>
+                  <div class="col-3 justify-content-center empty-cell">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Optin Forms</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Broadcasts</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Broadcasts</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Save Email Templates</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END OF LIST BUILDER -->
+
+          <!-- BLOG BUILDER -->
+          <div id="blog-builder" >
+            <div class="accordion-header d-flex flex-row flex-md-row flex-lg-row">
+              <span class="accordion-header-text text-start">
+                <h4>Blog Builder</h4>
+              </span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+            </div>
+            <div class="accordion-body  py-0">
+                <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Basic</span>
+                    <span>Business</span>
+                    <span>Pro</span>
+                  </div>
+                  <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                  </div>
+              <div class="accordion-table">
+                <div class="row">
+                  <div class="col-3">Widgets</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Menu</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Theme Customization</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Number of Themes</div>
+                  <div class="col-3 justify-content-center">1</div>
+                  <div class="col-3 justify-content-center">3</div>
+                  <div class="col-3 justify-content-center">3</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Number of Posts</div>
+                  <div class="col-3 justify-content-center">Unlimited</div>
+                  <div class="col-3 justify-content-center">Unlimited</div>
+                  <div class="col-3 justify-content-center">Unlimited</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Post Categories</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END OF BLOG BUILDER -->
+
+          <!-- AFFILIATE CENTER -->
+          <div id="affiliate-builder" >
+            <div class="accordion-header d-flex flex-row flex-md-row flex-lg-row">
+              <span class="accordion-header-text text-start">
+                <h4>Affiliate Center</h4>
+              </span>
+              <span class="d-none d-md-block">No</span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+            </div>
+            <div class="accordion-body  py-0">
+                <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Basic</span>
+                    <span>Business</span>
+                    <span>Pro</span>
+                  </div>
+                  <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                  </div>
+              <div class="accordion-table">
+                <div class="row">
+                  <div class="col-3">In-built SMTP</div>
+                  <div class="col-3 empty-cell justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Promotion Tools</div>
+                  <div class="col-3 empty-cell justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Manage Commissions</div>
+                  <div class="col-3 empty-cell justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Number of Affiliates</div>
+                  <div class="col-3 empty-cell justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">1000</div>
+                  <div class="col-3 justify-content-center">5000</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Number of Themes</div>
+                  <div class="col-3 empty-cell justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">1</div>
+                  <div class="col-3 justify-content-center">1</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Theme customization</div>
+                  <div class="col-3 empty-cell justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END OF AFFILIATE CENTER -->
+
+          <!-- SUPPORT DESK -->
+          <div id="support-desk" >
+            <div class="accordion-header d-flex flex-row flex-md-row flex-lg-row">
+              <span class="accordion-header-text text-start">
+                <h4>Support Desk</h4>
+              </span>
+              <span class="d-none d-md-block">No</span>
+              <span class="d-none d-md-block">Yes</span>
+              <span class="d-none d-md-block">Yes</span>
+            </div>
+            <div class="accordion-body  py-0">
+                <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Basic</span>
+                    <span>Business</span>
+                    <span>Pro</span>
+                  </div>
+                  <div class="accordion-table-header d-flex flex-row d-block d-md-none">
+                    <span></span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                    <span>Yes</span>
+                  </div>
+              <div class="accordion-table">
+                <div class="row">
+                  <div class="col-3">Number of staff</div>
+                  <div class="col-3 empty-cell justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">3</div>
+                  <div class="col-3 justify-content-center">10</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">In-built SMTP</div>
+                  <div class="col-3 empty-cell justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Number of Canned Responses</div>
+                  <div class="col-3 empty-cell justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">20</div>
+                  <div class="col-3 justify-content-center">100</div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Knowledgebase</div>
+                  <div class="col-3 empty-cell justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                  <div class="col-3 justify-content-center">
+                    <i class="fa-solid fa-check fa-lg"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">Number of Themes</div>
+                  <div class="col-3 empty-cell justify-content-center">NO</div>
+                  <div class="col-3 justify-content-center">1</div>
+                  <div class="col-3 justify-content-center">1</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END OF SUPPORT DESK -->
+
+          <!-- BOTTOM BUTTONS -->
+          <div class="table-footer d-flex flex-column flex-md-row">
+            <div class="pricing-card empty-card"></div>
+            <div class="pricing-card">
+              <div class="basic-price-btn">
+                <button class="btn col-12 basic-btn buy-buttons">
+                  Buy Basic
+                </button>
+              </div>
+            </div>
+            <div class="pricing-card">
+              <div class="business-price-btn">
+                <button class="btn col-12 business-btn buy-buttons">
+                  Buy Business
+                </button>
+              </div>
+            </div>
+            <div class="pricing-card">
+              <div class="business-price-btn">
+                <button class="btn col-12 pro-btn buy-buttons">Buy Pro</button>
+              </div>
+            </div>
+          </div>
+          <!-- END OF BOTTOM BUTTONS -->
+        </div>
+        <!-- End of Table Body -->
+      </div>
+      <!-- END OF TABLE -->
+    </main>
+    <!-- END OF MAIN -->
+
+    <script src="./main.js"></script>
+  </body>
+</html>
