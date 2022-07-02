@@ -77,12 +77,6 @@ body {
     background-color: #F7F7F7 !important;
     cursor: pointer;
 }
-.accordion-header.active {
-    background-color: #e0e0e0 !important;
-}
-.accordion-header:hover{
-    background-color: #e0e0e0 !important;
-}
 .accordion-header-text {
     display: flex;
     align-items: center;
@@ -121,6 +115,9 @@ body {
 }
 .subscription-plan {
     text-transform: uppercase;
+}
+.active {
+    background-color: #e0e0e0 !important;
 }
 .accordion-header.active + .accordion-body {
     display: block;
@@ -165,6 +162,12 @@ body {
 .table-footer .buy-buttons {
     margin: 0;
 }
+@media screen and (max-width: 280px){
+    .col-3 {
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+}
 @media screen and (min-width: 764px) {
     .empty-card {
         display: block;
@@ -192,6 +195,9 @@ body {
     .accordion-header > span {
         width: 25%;
         text-align: center;
+    }
+    .accordion-header:hover {
+        background-color: #e0e0e0 !important;
     }
     .col-3 {
         padding: 10px 40px !important;
