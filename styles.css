@@ -105,6 +105,7 @@ body {
 }
 .accordion-header.active > .accordion-header-text::before {
     transform: rotate(-180deg);
+    margin-left: 5px;
 }
 /* Question mark inside circle  */
 .accordion-header-text::after {
