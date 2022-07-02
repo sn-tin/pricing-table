@@ -116,9 +116,6 @@ body {
 .subscription-plan {
     text-transform: uppercase;
 }
-.active {
-    background-color: #e0e0e0 !important;
-}
 .accordion-header.active + .accordion-body {
     display: block;
 }
